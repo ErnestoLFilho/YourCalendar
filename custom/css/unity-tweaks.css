@@ -1,0 +1,29 @@
+/* Tweaks to the UX/UI based on my needs */
+
+.em-c-header__body {
+    display: block;
+}
+.em-c-header__body > * {
+    display: block;
+    width: auto;
+}
+.em-c-primary-nav__list {
+    display: flex;
+    flex-wrap: wrap;
+}
+.em-c-header {
+    background-image: linear-gradient(-45deg, #4bbfb8 10%, #546dc4 100%);
+}
+
+@media all and (min-width: 47em) {
+    .em-c-header__body {
+      display: block;
+    }
+}
+
+@media all and (min-width: 17em) {
+    .em-c-footer__inner {
+        -ms-flex-direction: row;
+        flex-direction: row;
+    }
+}

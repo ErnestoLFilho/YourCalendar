@@ -1,0 +1,37 @@
+<div class="em-c-page-header ">
+
+  <h1 class="em-c-page-header__title">Some ideas for Shared Services:</h1>
+      
+  <div class="em-l-grid em-l-grid--2up ">
+    <div class="em-l-grid__item">
+        
+        <h3>Version 1 (WIP):</h3>
+        <img src="_hidden/c.png" style="max-width: 400px; height: auto;">
+
+    </div>
+    <!-- end em-l-grid__item -->
+    <div class="em-l-grid__item">
+        
+        <h3>Version 1 (WIP, extra):</h3>
+        <img src="_hidden/c_a.png" style="max-width: 400px; height: auto;">
+
+    </div>
+    <!-- end em-l-grid__item -->
+    <div class="em-l-grid__item">
+        
+        <h3>Version 2 (WIP):</h3>
+        <img src="_hidden/b.png" style="max-width: 400px; height: auto;">
+
+    </div>
+    <!-- end em-l-grid__item -->
+    <div class="em-l-grid__item">
+        
+        <h3>Version 3 (WIP):</h3>
+        <img src="_hidden/a.png" style="max-width: 400px; height: auto;">
+
+    </div>
+    <!-- end em-l-grid__item -->
+  </div>
+  <!-- end em-l-grid -->
+
+</div>

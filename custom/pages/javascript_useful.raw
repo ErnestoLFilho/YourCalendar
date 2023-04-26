@@ -1,0 +1,87 @@
+<div class="em-c-page-header ">
+  <h1 class="em-c-page-header__title">Useful Javascript stuff</h1>
+  <p class="em-c-page-header__desc">Bookmarks, websites and more. Use some of what I've found in the internet to get things working around here!</p>
+</div>
+
+<hr>
+
+<div class="lsw-finetext">
+  
+  <h2 id="bookmarks">
+    <a href="#bookmarks">Bookmarks</a>
+  </h2>
+
+  <ol class="lsw-tiplist">
+    <li>
+      <h4>
+        Speed control
+      </h4>
+
+      <p>
+        First bookmark is about setting any video playback speed exactly as you want. Save this code as a bookmark and you'll be able to set the speed of all loaded videos in the current page you're on!
+      </p>
+      
+      <code>
+        javascript:(()=>{let ps = prompt("Speed?","1");if(ps===null||ps<0||ps>100){ps=1;}document.querySelectorAll("video").forEach((e)=>{e.playbackRate=ps;});console.log(`Playback @ $(ps)`);})();
+      </code>
+
+    </li>
+    <li>
+      <h4>
+        Adblocker?
+      </h4>
+      
+      <p>
+        This one I've made because we cannot have ad block software on our Exxon machines. This javascript tries to find Google ads and then just remove them automatically.
+      </p>
+      <p>
+        Yes, this may remove things that are not ads, but it only depends on the website. Yes, this also may not work everywhere. This is not perfect. That's why ad blockers exist. Still, better than nothing, yea?
+      </p>
+
+      <code>
+        javascript:(()=>{ Array.prototype.forEach.call(document.querySelectorAll('[id^="google_ads"]'), function(node){ node.parentNode.parentNode.removeChild(node.parentNode);}); Array.prototype.forEach.call(document.querySelectorAll('[id^="gcc_"]'), function(node){ node.parentNode.parentNode.removeChild(node.parentNode);}); })();
+      </code>
+
+    </li>
+  </ol>
+
+  <hr>
+
+  <h2 id="javascript_self">
+    <a href="#javascript_self">Javascript itself</a>
+  </h2>
+  
+  <ol class="lsw-tiplist">
+    <li>
+      <h4>
+        YouTube hidden player
+      </h4>
+
+      <p>
+        As you might have seen, there's a hidden YouTube player on this website. How does that work? Simple.
+      </p>
+      <p>
+        First step, let's create somewhere to "put" our hidden player. Put this somewhere:
+      </p>
+      
+      <code>
+        &lt;div id='ytreplacethis'&gt;&lt;/div&gt;
+      </code>
+
+      <p>
+        As you can see, we called it <strong>ytreplacethis</strong>. This is very important. Now, <a href="custom/js/youtube.js">get a reference to this javascript</a>, copy the file or copy from this page itself:
+      </p>
+
+      <code>
+        SORRY, THIS IS WORK IN PROGRESS YET. CHECK LATER
+      </code>
+
+    </li>
+  </ol>
+
+  <hr>
+
+  <h3>
+    More stuff coming later!
+  </h3>
+</div>

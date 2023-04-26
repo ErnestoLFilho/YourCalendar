@@ -1,0 +1,131 @@
+<div class="em-c-page-header ">
+  <h1 class="em-c-page-header__title">Relevant to trainees</h1>
+  <p class="em-c-page-header__desc">I gathered a lot of goto's from my onboarding, from what I've found and also from other trainees!</p>
+</div>
+
+<hr>
+
+<div class="lsw-finetext">
+  
+  <h2 id="sponsored"><a href="#sponsored">Sponsored</a></h2>
+  <ol class="lsw-tiplist lsw-tiplist_lowmargin">
+  <li><a target="_blank" href="http://goto/yourcalendar" class="lsw_replace_to_href">Your Calendar</a></li>
+  </ol><hr>
+    
+  <h2 id="common"><a href="#common">Common</a></h2>
+  <ol class="lsw-tiplist lsw-tiplist_lowmargin">
+  <li><a target="_blank" href="http://goto/goto"       class="lsw_replace_to_href">Create/see goto(s)</a></li>
+  <li><a target="_blank" href="http://goto/acronyms"   class="lsw_replace_to_href">Acronyms search</a></li>
+  <li><a target="_blank" href="http://goto/cc"         class="lsw_replace_to_href">Career Connect</a></li>
+  <li><a target="_blank" href="http://goto/itservices" class="lsw_replace_to_href">IT Services</a></li>
+  <li><a target="_blank" href="http://goto/idm"        class="lsw_replace_to_href">Identity Manager</a></li>
+  <li><a target="_blank" href="http://goto/emergelite" class="lsw_replace_to_href">EMerge Lite</a></li>
+  <li><a target="_blank" href="http://goto/SkillBingo" class="lsw_replace_to_href">Skill Bingo</a></li>
+  <li><a target="_blank" href="http://goto/translate"  class="lsw_replace_to_href">Translator</a></li>
+  <li><a target="_blank" href="http://goto/owa"        class="lsw_replace_to_href">Outlook online</a></li>
+  </ol><hr>
+
+  <h2 id="useful"><a href="#useful">Useful</a></h2>
+  <ol class="lsw-tiplist lsw-tiplist_lowmargin">
+  <li><a target="_blank" href="http://goto/search"              class="lsw_replace_to_href">Exxon Search</a></li>
+  <li><a target="_blank" href="http://goto/rsiguard"            class="lsw_replace_to_href">RSIGuard User Guidance</a></li>
+  <li><a target="_blank" href="http://goto/citcalendar"         class="lsw_replace_to_href">Curitiba IT Calendar</a></li>
+  <li><a target="_blank" href="http://goto/sapcalendar"         class="lsw_replace_to_href">SAP Calendar</a></li>
+  <li><a target="_blank" href="http://goto/softwarerequest"     class="lsw_replace_to_href">Request Software</a></li>
+  <li><a target="_blank" href="http://goto/mypayinfo"           class="lsw_replace_to_href">My Pay Info</a></li>
+  <li><a target="_blank" href="http://goto/signature"           class="lsw_replace_to_href">Signature</a></li>
+  <li><a target="_blank" href="http://goto/mysite"              class="lsw_replace_to_href">MySite</a></li>
+  <li><a target="_blank" href="http://goto/findme"              class="lsw_replace_to_href">Find Me</a></li>
+  <li><a target="_blank" href="http://goto/myseat"              class="lsw_replace_to_href">MySeat - Workspace Reservation</a></li>
+  <li><a target="_blank" href="http://goto/yourseat"            class="lsw_replace_to_href">YourSeat - Check Seat Reservations</a></li>
+  <li><a target="_blank" href="http://goto/feriados"            class="lsw_replace_to_href">Feriados (Brazil)</a></li>
+  <li><a target="_blank" href="http://goto/traineevacation"     class="lsw_replace_to_href">Trainee Vacation</a></li>
+  <li><a target="_blank" href="http://goto/popupchecker"        class="lsw_replace_to_href">Pop Up Checker</a></li>
+  <li><a target="_blank" href="http://goto/specialoffers"       class="lsw_replace_to_href">Special Offers (for employees in restaurants, gym etc)</a></li>
+  <li><a target="_blank" href="http://goto/surveyspecialoffers" class="lsw_replace_to_href">Special Offers Survey </a></li>
+  <li><a target="_blank" href="http://goto/standardFC"          class="lsw_replace_to_href">StandardFC</a></li>
+  <li><a target="_blank" href="http://goto/PAE"                 class="lsw_replace_to_href">Programa Assistência ao Empregado (problemas legais, advogados, psicólogos, contadores)</a></li>
+  </ol><hr>
+
+  <h2 id="webdev"><a href="#webdev">Website Dev</a></h2>
+  <ol class="lsw-tiplist lsw-tiplist_lowmargin">
+  <li><a target="_blank" href="http://goto/unity"         class="lsw_replace_to_href">Unity</a></li>
+  <li><a target="_blank" href="http://goto/reactUnity"    class="lsw_replace_to_href">React with Unity</a></li>
+  <li><a target="_blank" href="http://goto/vuenity"       class="lsw_replace_to_href">Vue with Unity</a></li>
+  <li><a target="_blank" href="http://goto/AngularUnity"  class="lsw_replace_to_href">Angular with Unity</a></li>
+  </ol><hr>
+
+  <h2 id="git"><a href="#git">GitHub</a></h2>
+  <ol class="lsw-tiplist lsw-tiplist_lowmargin">
+  <li><a target="_blank" href="http://goto/git"           class="lsw_replace_to_href">GitHub</a></li>
+  <li><a target="_blank" href="http://goto/gitit"         class="lsw_replace_to_href">Git it</a></li>
+  <li><a target="_blank" href="http://goto/gitGuide"      class="lsw_replace_to_href">Git Guide</a></li>
+  <li><a target="_blank" href="http://goto/gitCheatSheet" class="lsw_replace_to_href">Git Cheat Sheet</a></li>
+  <li><a target="_blank" href="http://goto/gitBranches"   class="lsw_replace_to_href">Git Branches</a></li>
+  <li><a target="_blank" href="https://github.xom.com"    class="lsw_replace_to_href">Exxon's Github</a></li>
+  </ol><hr>
+
+  <h2 id="work"><a href="#work">Work stuff</a></h2>
+  <ol class="lsw-tiplist lsw-tiplist_lowmargin">
+  <li><a target="_blank" href="http://goto/DevPortal" class="lsw_replace_to_href">Developer Portal</a></li>
+  <li><a target="_blank" href="http://goto/cloudwiki" class="lsw_replace_to_href">Cloud Wiki</a></li>
+  <li><a target="_blank" href="http://goto/boards"    class="lsw_replace_to_href">Boards</a></li>
+  <li><a target="_blank" href="http://goto/JAS"       class="lsw_replace_to_href">Job Automation Services</a></li>
+  <li><a target="_blank" href="http://goto/ITPA"      class="lsw_replace_to_href">IT Privileged Access</a></li>
+  <li><a target="_blank" href="http://goto/vApp"      class="lsw_replace_to_href">Virtual Apps</a></li>
+  <li><a target="_blank" href="http://goto/edg"       class="lsw_replace_to_href">Email Distribution Group</a></li>
+  <li><a target="_blank" href="http://goto/powerbi"   class="lsw_replace_to_href">Power BI</a></li>
+  </ol><hr>
+
+  <h2 id="design"><a href="#design">Design and branding</a></h2>
+  <ol class="lsw-tiplist lsw-tiplist_lowmargin">
+  <li><a target="_blank" href="http://goto/emcolors"    class="lsw_replace_to_href">ExxonMobil Colors</a></li>
+  <li><a target="_blank" href="http://goto/mural"       class="lsw_replace_to_href">Mural (será descontinuado dia 29 de julho)</a></li>
+  <li><a target="_blank" href="http://goto/brand"       class="lsw_replace_to_href">Brand</a></li>
+  <li><a target="_blank" href="http://goto/itbrand"     class="lsw_replace_to_href">IT Brand</a></li>
+  <li><a target="_blank" href="http://goto/logo"        class="lsw_replace_to_href">Logo</a></li>
+  <li><a target="_blank" href="http://goto/getty"       class="lsw_replace_to_href">Getty (instructions)</a></li>
+  <li><a target="_blank" href="http://goto/gettyimages" class="lsw_replace_to_href">GettyImages</a></li>
+  <li><a target="_blank" href="http://goto/mixx"        class="lsw_replace_to_href">Mixx Exxon color palette</a></li>
+
+  <li><a target="_blank" href="https://convert.io/" class="lsw_replace_to_href">Convert.io</a></li>
+  <li><a target="_blank" href="https://coolors.co/" class="lsw_replace_to_href">Coolors.co Color palette</a></li>
+  <li><a target="_blank" href="https://undraw.co/" class="lsw_replace_to_href">Undraw.co</a></li>
+  <li><a target="_blank" href="https://www.adobe.com/br/express/" class="lsw_replace_to_href">Adobe express</a></li>
+  <li><a target="_blank" href="https://create.vista.com/pt/signup/" class="lsw_replace_to_href">Vista create</a></li>
+  <li><a target="_blank" href="https://imagecolorpicker.com/" class="lsw_replace_to_href">Image Color Picker (background color removal)</a></li>
+  <li><a target="_blank" href="https://corporate.exxonmobil.com/asset-center/dac" class="lsw_replace_to_href">Exxon Digital Asset Center</a></li>
+  <li><a target="_blank" href="https://fonts.google.com/knowledge" class="lsw_replace_to_href">Google Font Knowledge</a></li>
+  <li><a target="_blank" href="https://brandcenter.exxonmobil.com/Guidelines/Brand-application/Digital/Powerpoint-presentation#microsoft%C2%AEPowerPoint%C2%AEPresentation" class="lsw_replace_to_href">Powerpoint Presentation</a></li>
+  </ol><hr>
+
+  <h2 id="learn"><a href="#learn">Learning and related</a></h2>
+  <ol class="lsw-tiplist lsw-tiplist_lowmargin">
+  <li><a target="_blank" href="http://goto/learnlight"    class="lsw_replace_to_href">LearnLight (learn new language)</a></li>
+  <li><a target="_blank" href="http://goto/coursera"      class="lsw_replace_to_href">Coursera</a></li>
+  <li><a target="_blank" href="http://goto/pluralsight"   class="lsw_replace_to_href">PluralSight</a></li>
+  <li><a target="_blank" href="http://goto/cclearning"    class="lsw_replace_to_href">Learning hub</a></li>
+
+  <li><a target="_blank" href="https://vuejs.org" class="lsw_replace_to_href">Vue page</a></li>
+  <li><a target="_blank" href="https://esi.microsoft.com/" class="lsw_replace_to_href">Microsoft Enterprise Skills Initiative</a></li>
+  <li><a target="_blank" href="https://learn.snowflake.com/" class="lsw_replace_to_href">Snowflake (learn)</a></li>
+  <li><a target="_blank" href="https://jam4.sapjam.com/groups/YhBk19MdF6ZaUf9CTe8Zvm/overview_page/ruKBBQGs6UKeybfrvyCsB1" class="lsw_replace_to_href">ExxonMobil Onboarding Hub</a></li>
+  </ol><hr>
+
+  <h2 id="others"><a href="#others">Others</a></h2>
+  <ol class="lsw-tiplist lsw-tiplist_lowmargin">
+  <li><a target="_blank" href="https://br.linkedin.com">LinkedIn</a></li>
+  <li><a target="_blank" href="http://goto/topbr"             >2023 Onboarding</a></li>
+  <li><a target="_blank" href="http://goto/relax"             >Relax</a></li>
+  <li><a target="_blank" href="http://goto/eventx"            >Events</a></li>
+  <li><a target="_blank" href="http://goto/aGame"             >aGame</a></li>
+  <li><a target="_blank" href="http://goto/dpo"               >Data Privacy</a></li>
+  <li><a target="_blank" href="http://goto/kitur"             >Key IT User Responsibilities</a></li>
+  <li><a target="_blank" href="http://goto/eda"               >Employee Direct Access</a></li>
+  <li><a target="_blank" href="http://goto/SCA"               >Site Collection Administrator</a></li>
+  <li><a target="_blank" href="http://goto/DataAdoption"      >Data Adoption</a></li>
+  <li><a target="_blank" href="http://goto/Powerfulquestions" >Powerful Questions</a></li>
+  <li><a target="_blank" href="http://goto/yammer"            >Yammer</a></li>
+  </ol><hr>
+  
+</div>

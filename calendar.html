@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE11">
+    <!--meta http-equiv="X-UA-Compatible" content="IE=edge"--> 
+    <html lang="en">
+		<!-- The above 3 meta tags *must* come first in the head -->
+		<title>Your Calendar</title>
+
+		<!-- IMPORTANT!
+		     In the two tags below, update unity-1.7.1
+		     to match the location of your Unity files
+		-->
+        
+    <link rel="icon" type="image/x-icon" href="custom/images/favicon.ico">
+		<link href="unity-1.7.1/css/em-unity-1.7.1.min.css" media="all" rel="stylesheet" />
+		<link href="custom/css/unity-tweaks.css" media="all" rel="stylesheet" />
+		<link href="custom/css/common.css" media="all" rel="stylesheet" />
+		<script type="text/javascript" src="unity-1.7.1/js/vendor/svg4everybody.min.js"></script><!-- polyfill for SVG icons -->
+    
+    <script type="text/javascript" src="custom/js/internet_explorer.js"></script>
+    <script type="text/javascript" src="custom/js/ls_calendar.js"></script>
+    <script type="text/javascript" src="custom/js/httpget_parse.js"></script>
+
+	</head>
+	<body>
+		       
+    <main class="em-c-header " role="banner" style="padding: 1em 2em; margin: 0px;">
+      <div class="em-c-page-header ">
+          <h1 class="em-c-page-header__title" title="Back home"><a style="color:white" href="http://goto/efilho">Your Calendar</a></h1>
+        </div>
+        <!-- end em-c-page-header -->
+
+        <div class="em-c-btn-bar">
+          <ul class="em-c-btn-bar__list">
+            <li class="em-c-btn-bar__item">
+              <button class="em-c-btn em-c-btn--small em-c-btn--primary" onclick="lsw_CalendarJoin(); lsw_BuildTable('lsw_table')" style="background-color: #62e1b5;">
+                <span class="em-c-btn__text"><span class="lsw_emoji">🪂</span> Set time <strong>JOINED</strong> today</span>
+              </button>
+              <!-- end em-c-btn -->
+            </li>
+            <li class="em-c-btn-bar__item">
+              <button class="em-c-btn em-c-btn--small em-c-btn--primary" onclick="lsw_CalendarLeft(); lsw_BuildTable('lsw_table')" style="background-color: #cbb862;">
+                <span class="em-c-btn__text"><span class="lsw_emoji">🛫</span> Set time <strong>LEFT</strong> today</span>
+              </button>
+              <!-- end em-c-btn -->
+            </li>
+            <li class="em-c-btn-bar__item">
+              <button class="em-c-btn em-c-btn--small em-c-btn--primary" onclick="window.location.href='https:\/\/mysite.na.xom.com\/personal\/sa_elmrfil\/Blog\/calendar.html?autojoin=1&autoleft=1';" style="background-color: #d565c6;">
+                <span class="em-c-btn__text" title="It'll refresh automatically after clicking this. Check the URL to see autojoin and autoleft set."><span class="lsw_emoji">⚡</span> Make it <strong>automatic</strong> (just keep the page loaded)</span>
+              </button>
+              <!-- end em-c-btn -->
+            </li>
+            <li class="em-c-btn-bar__item">
+              <button class="em-c-btn em-c-btn--small em-c-btn--primary" onclick="lsw_TakeABreak(); lsw_BuildTable('lsw_table')" style="background-color: #e29521;">
+                <span class="em-c-btn__text" title="Start a break for as long as the prompt is kept open."><span class="lsw_emoji">⏸</span> Take a break!</span>
+              </button>
+              <!-- end em-c-btn -->
+            </li>
+            <li style="width: 10px">
+            </li>
+            <li class="em-c-btn-bar__item">
+              <div id="import-csv-div" class="em-c-btn em-c-btn--small em-c-btn--primary" style="background-color: #cd4977;">
+                <span class="em-c-btn__text">Import CSV</span>
+                <input class="hideout" type="file" id="import-csv" />
+              </div>
+              <!-- end em-c-btn -->
+            </li>
+            <li class="em-c-btn-bar__item">
+              <button class="em-c-btn em-c-btn--small em-c-btn--primary" onclick="lsw_ExportToFile();" style="background-color: #55cbe5;">
+                <span class="em-c-btn__text" title="Export in UTC time everything saved in this page.">Export CSV</span>
+              </button>
+              <!-- end em-c-btn -->
+            </li>
+          </ul>
+          <!-- end em-c-btn-bar__list -->
+        </div>
+        <!-- end em-c-btn-bar -->
+      <p style="margin: 0; text-align: right; transform: translate(15px, 18px);"
+title="Features in this version:&#013;
+- Footer Total work calculation (more stuff coming)&#013;
+- On import, you can clear all stored data now&#013;
+- Improved some functions to make code more reusable&#013;&#013;
+Page made by Ernesto. Pure HTML, JS and CSS + Unity 1.7.1">
+        Version 1.2.3_20230419_3613GMT-3 EARLY ACCESS
+      </p>
+    
+    </main>
+
+    <div id="lsw_table" style="margin-bottom: 20px;">
+        <h3>Loading...</h3>
+    </div>
+
+    <!-- end em-c-footer -->
+	<script type="text/javascript" src="unity-1.7.1/js/em-unity-1.7.1.min.js"></script>
+	</body>
+  <footer class="lsw_footer">
+    <p id="lsw_status">LEFT TEXT YOO</p>
+  </footer>
+</html>
+<script language='JavaScript' type = "text/javascript">
+if (lsw_GetHTTP("autojoin") == "1") {
+  lsw_CalendarJoin(false);
+}
+if (lsw_GetHTTP("autoleft") == "1") {
+  function __updateleft() {
+    lsw_CalendarLeft(false);
+    //lsw_BuildTable("lsw_table");
+    lsw_UpdateTableToday("left");
+    lsw_UpdateTableToday("worked");
+    lsw_UpdateWorkTimeAt("lsw_status");
+    setTimeout(__updateleft, 1000);
+  }
+
+  setTimeout(__updateleft, 1000);
+}
+
+function __updatebottomlsw() {
+  lsw_UpdateWorkTimeAt("lsw_status");
+  setTimeout(__updatebottomlsw, 1000);
+}
+
+lsw_BuildTable("lsw_table");
+
+lsw_MapButtonInput('import-csv-div', 'import-csv');
+document.getElementById('import-csv').addEventListener('change', lsw_ImportFromFile, false);
+
+__updatebottomlsw();
+
+</script>

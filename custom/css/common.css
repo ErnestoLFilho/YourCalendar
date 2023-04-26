@@ -1,0 +1,121 @@
+@keyframes slideInFromBottom {
+  0% {
+    transform: translateY(150%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.lsw-tooltip {
+  /* position: relative; */
+  /* display: inline-block; */
+  /* border-bottom: 1px dotted black; */
+}
+
+.lsw-tooltip > * {
+  visibility: hidden;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 7px;
+  top: -7px;
+  white-space: nowrap;
+  transform: translate(-50%, 0);
+
+  /* Position the lsw-tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.lsw-tooltip:hover > * {
+  visibility: visible;
+}
+
+ol.lsw-tiplist {
+  list-style: none;
+  counter-reset: my-awesome-counter;
+}
+
+div.lsw-finetext p {
+  text-indent: 18px;
+  width: 100%;
+  text-align: justify;
+  text-justify: inter-word;
+  text-align-last: left;
+}
+
+ol.lsw-tiplist li {
+  counter-increment: my-awesome-counter;
+  margin-top: 2rem;
+}
+
+ol.lsw-tiplist li::before {
+  content: counter(my-awesome-counter) " › ";
+  font-weight: bold;
+  padding-left: 18px;
+  font-size: 1.5rem;
+}
+
+ol.lsw-tiplist li :first-child {
+  display: inline;
+}
+
+ol.lsw-tiplist li > p,
+ol.lsw-tiplist li > h1,
+ol.lsw-tiplist li > h2,
+ol.lsw-tiplist li > h3,
+ol.lsw-tiplist li > h4,
+ol.lsw-tiplist li > h5,
+ol.lsw-tiplist li > h6,
+ol.lsw-tiplist li > code,
+ol.lsw-tiplist li > textarea,
+ol.lsw-tiplist li > span {
+  margin-top: 0.8em;
+  margin-bottom: 0.8em;
+  /*padding-bottom: 1.5em;*/
+}
+
+ul.lsw-tiplist li::before {
+  content: "› ";
+  font-weight: bold;
+  padding-left: 18px;
+  font-size: 1.5rem;
+}
+
+ol.lsw-tiplist_lowmargin li,
+ul.lsw-tiplist_lowmargin li {
+  margin-top: 0.3rem;
+}
+
+.lsw_emoji {
+  font-family:'Segoe UI Emoji';
+}
+
+.lsw_replace_to_href{  
+}
+.lsw_replace_to_href:hover::after{
+  content: " -> " attr(href);
+}
+
+.hideout {
+  position: fixed;
+  top: -10000px;
+  left: -10000px;
+}
+
+.lsw_footer {
+  animation: 1s ease-out 0s 1 slideInFromBottom;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #fafafa;
+  border-top: 1px solid #bbbbbb;
+  box-shadow: 0 -2px 3px #dddddd;
+}
+
+.lsw_footer > p {
+  bottom: 1px;
+  margin: 2px 7px 2px 7px;
+}

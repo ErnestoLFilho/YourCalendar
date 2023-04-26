@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE11">
+        <html lang="en">
+		<!-- The above 3 meta tags *must* come first in the head -->
+		<title>IE testing</title>
+
+		<!-- IMPORTANT!
+		     In the two tags below, update unity-1.7.1
+		     to match the location of your Unity files
+		-->
+        
+        <link rel="icon" type="image/x-icon" href="../custom/images/favicon.ico">
+		<link href="../unity-1.7.1/css/em-unity-1.7.1.min.css" media="all" rel="stylesheet" />
+		<link href="../custom/css/unity-tweaks.css" media="all" rel="stylesheet" />
+		<link href="../custom/css/common.css" media="all" rel="stylesheet" />
+		
+        <script type="text/javascript" src="../unity-1.7.1/js/vendor/svg4everybody.min.js"></script><!-- polyfill for SVG icons -->
+
+        <script type="text/javascript" src="../custom/js/internet_explorer.js"></script>
+        <script type="text/javascript" src="../custom/js/page_manage.js"></script>
+        <script type="text/javascript" src="../custom/js/cookie_manager.js"></script>
+
+	</head>
+	<body>		
+    
+    <!-- end em-c-header -->
+    <!-- uncoment the following when using SPA (e.g. Angular, React, etc). For traditional websites, Unity JS handles this automagically :) -->
+    <!-- <div class="em-c-header-overlay"></div> -->
+    <main role="main">
+      <div class="em-l-container" id="lsw_dynamic_page_loader">
+        <div class="em-c-page-header ">
+          <div id="lsw_dynamic_page_loader_flag"><h1>THIS IS A TEST</h1></div>
+          <h1 class="em-c-page-header__title">Simple page</h1>
+          <p class="em-c-page-header__desc">This is my testing area, go away kekw</p>
+        </div>
+        <!--end em-c-table-->
+      </div>
+      <!-- end em-l-container-->
+    </main>
+    <!-- end main-->
+	<script type="text/javascript" src="../unity-1.7.1/js/em-unity-1.7.1.min.js"></script>
+
+	</body>
+</html>
+<script language='JavaScript' type = "text/javascript">
+  //alert("a");
+  //setTimeout(function() {lsw_RemoveItem('lsw_dynamic_page_loader_flag'); }, 4000);
+  if (detectIEEdge()) {
+    /*if (getCookie("test")) alert("IE w cookie!");
+    else {
+      setCookie("test", "value");
+      alert("IE w/o cookie!");
+    }*/
+    alert("IE!");
+
+    lsw_ReplaceContentWithPage('lsw_dynamic_page_loader', 'custom/pages/default.raw');
+  }
+  else {
+    alert("NOT IE");
+    load('custom/pages/default.raw', function(attr){alert("a " + attr); });
+  }
+  //lsw_RemoveItem('lsw_dynamic_page_loader_flag');
+  //lsw_ReplaceContentWithPage('lsw_dynamic_page_loader', 'custom/pages/default.raw', lsw_RemoveItem('lsw_dynamic_page_loader_flag'));
+</script>
